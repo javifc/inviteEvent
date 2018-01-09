@@ -1,5 +1,4 @@
-require 'json'
-require 'byebug'
+Bundler.require
 
 Dir.glob('./*.rb').each { |r| require r}
 Dir.glob('./tasks/*.rake').each { |r| load r}
