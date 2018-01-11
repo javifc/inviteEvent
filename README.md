@@ -39,9 +39,11 @@ unit | false | km
 
 Examples of possible calls:
 
-```$ rake intercom:invite_customers['./files/file_customers.json']```
-```$ rake intercom:invite_customers['./files/file_customers.json','43.33','-3.25','100','miles']```
-```$ rake intercom:invite_customers['./files/file_customers.json',,,'200','kms']```
+```
+$ rake intercom:invite_customers['./files/file_customers.json']
+$ rake intercom:invite_customers['./files/file_customers.json','43.33','-3.25','100','miles']
+$ rake intercom:invite_customers['./files/file_customers.json',,,'200','kms']
+```
 
 
 ## Tests
