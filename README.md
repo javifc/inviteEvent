@@ -2,7 +2,7 @@
 
 
 ## Description
-This program fetches customer records from a text file (ie: customers.json) --one customer per line, JSON-encoded). And returns a list of customers, sorted by user id in ascending order, who are within 100km from the given (or default) coordenates.
+This program fetches customer records from a text file (ie: customers.json) --one customer per line, JSON-encoded). And returns a list of customers, sorted by user id in ascending order, who are within a given distance from the given coordenates.
 
 
 ## Set up and run program
@@ -39,9 +39,9 @@ unit | false | km
 
 Examples of possible calls:
 
-`$ rake intercom:invite_customers['./files/file_customers.json']`
-`$ rake intercom:invite_customers['./files/file_customers.json','43.33','-3.25','100','miles']`
-`$ rake intercom:invite_customers['./files/file_customers.json',,,'200','kms']`
+```$ rake intercom:invite_customers['./files/file_customers.json']```
+```$ rake intercom:invite_customers['./files/file_customers.json','43.33','-3.25','100','miles']```
+```$ rake intercom:invite_customers['./files/file_customers.json',,,'200','kms']```
 
 
 ## Tests
